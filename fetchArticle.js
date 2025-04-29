@@ -1,72 +1,49 @@
 const fs = require("fs");
+const path = require("path");
 const axios = require("axios");
 const { execSync } = require("child_process");
-const path = require("path");
 
-// Expanded & corrected topics list
-const tags = [
-  "devops", "git", "flutter", "javascript", "typescript", "node", "express",
-  "angular", "react", "vue", "svelte", "webdev", "technology", "ai", "prompts",
-  "chatgpt", "openai", "machinelearning", "mongodb", "database", "sql", "nosql",
-  "mysql", "postgres", "docker", "kubernetes", "cloud", "aws", "azure", "cicd"
+// Change working directory to the git project
+process.chdir("/home/ubuntu/github-projects/articles");
+
+const topics = [
+  "devops", "git", "flutter", "javascript", "nodejs", "angular",
+  "technology", "ai", "prompts", "mongodb", "database", "sql", "nosql", "mysql",
+  "typescript", "react", "docker", "kubernetes", "llm", "machinelearning"
 ];
 
 function sanitizeFileName(title) {
   return title
     .toLowerCase()
-    .replace(/[^a-z0-9]/gi, "-")
-    .replace(/-+/g, "-")
-    .replace(/^-|-$/g, "")
-    .substring(0, 80);
-}
-
-function getUniqueFileName(baseDir, baseName, ext) {
-  let filePath = path.join(baseDir, `${baseName}${ext}`);
-  let counter = 1;
-
-  while (fs.existsSync(filePath)) {
-    filePath = path.join(baseDir, `${baseName}-${counter}${ext}`);
-    counter++;
-  }
-
-  return filePath;
+    .replace(/[^\w\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .substring(0, 60); // limit filename length
 }
 
 async function run() {
   const date = new Date().toISOString().split("T")[0];
-  const tag = tags[Math.floor(Math.random() * tags.length)];
-  const baseDir = "articles";
+  const tag = topics[Math.floor(Math.random() * topics.length)];
+  const apiUrl = `https://dev.to/api/articles?top=1&tag=${tag}`;
 
   try {
-    const response = await axios.get(`https://dev.to/api/articles?top=1&tag=${tag}`);
-    const article = response.data[0];
-    const sanitizedTitle = sanitizeFileName(article.title);
-    const baseFileName = `${date}-${sanitizedTitle}`;
-    const filePath = getUniqueFileName(baseDir, baseFileName, ".md");
+    const response = await axios.get(apiUrl);
+    const articles = response.data;
 
-    const content = `# ${article.title}
-
-**Author:** ${article.user.name}  
-**Published:** ${article.readable_publish_date}  
-**Topic:** ${tag}  
-**Tags:** ${article.tag_list.join(", ")}  
-**Link:** [Read on DEV.to](${article.url})
-
----
-
-## Description
-${article.description}
-
----
-
-## Article Content
-${article.body_markdown || "*Full article available at the link above.*"}
-
-`;
-
-    if (!fs.existsSync(baseDir)) {
-      fs.mkdirSync(baseDir);
+    if (!Array.isArray(articles) || articles.length === 0) {
+      throw new Error(`No articles found for tag: ${tag}`);
     }
+
+    const article = articles[0];
+    const safeTitle = sanitizeFileName(article.title);
+    const fileName = `${date}-${safeTitle}.md`;
+    const filePath = path.join("articles", fileName);
+
+    if (fs.existsSync(filePath)) {
+      console.log(`ℹ️ File ${filePath} already exists. Skipping.`);
+      return;
+    }
+
+    const content = `# ${article.title}\n\n**Author:** ${article.user.name}\n\n**Published:** ${article.readable_publish_date}\n\n**Tags:** ${article.tag_list.join(", ")}\n\n**Link:** [Read on DEV.to](${article.url})\n\n---\n\n${article.description || "No description provided."}`;
 
     fs.writeFileSync(filePath, content);
     console.log(`✅ Saved article: ${filePath}`);
