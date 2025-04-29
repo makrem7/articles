@@ -40,7 +40,7 @@ async function run() {
 
     if (fs.existsSync(filePath)) {
       console.log(`ℹ️ File ${filePath} already exists. Skipping.`);
-      return;
+      run();
     }
 
     const content = `# ${article.title}\n\n**Author:** ${article.user.name}\n\n**Published:** ${article.readable_publish_date}\n\n**Tags:** ${article.tag_list.join(", ")}\n\n**Link:** [Read on DEV.to](${article.url})\n\n---\n\n${article.description || "No description provided."}`;
