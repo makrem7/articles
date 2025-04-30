@@ -100,7 +100,7 @@ async function run() {
   execSync("git add .");
   execSync(`git commit -m "Add article: ${article.title}"`);
   execSync("git push");
-  console.log(`🕒 [${new Date().toLocaleTimeString()}] Pushed to repo.`);
+  console.log(`🕒 [${new Date().toLocaleTimeString()}] Pushed to repo.\n`);
 }
 
 run();
