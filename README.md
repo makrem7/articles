@@ -1,36 +1,18 @@
-# 📰 Daily Dev Articles Bot
+# Articles Collection 📝
 
-This repository automatically fetches a daily article about trending software development topics.
+A daily collection of interesting tech articles automatically fetched and committed.
 
-## 📌 Recent Articles
+## Latest Article Added
 
-### 📅 2025-04-29
-[Don't call your self react developer until you don't know this](articles/2025-04-29.md) — _webdev, react, programming, javascript_
+**Why Every Flutter Developer Should Harness Sliver Widgets for Complex Layouts**  
+👤 By Arslan Yousaf  
+📅 Published on Apr 30  
+🏷 Tags: flutter, dart, sliverwidgets, programming  
 
+[Read on Dev.to](https://dev.to/arslanyousaf12/why-every-flutter-developer-should-harness-sliver-widgets-for-complex-layouts-2d23)
 
+## How It Works
 
----
+This repository is automatically updated daily with a new tech article from Dev.to. The selection is random across various tech topics.
 
-## 🤖 Topics Covered
-- devops
-- git
-- flutter
-- javascript
-- node
-- angular
-- ai
-- prompt-engineering
-- mongodb
-- database
-- sql
-- nosql
-- mysql
-- react
-- docker
-- cicd
-- kubernetes
-- postgresql
-- webdev
-- cloud
-
-## 🔄 Auto Updated Daily via VPS & Node.js
+_Last updated: 2025-04-30T18:35:37.534Z_

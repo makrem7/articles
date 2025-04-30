@@ -7,9 +7,10 @@ const { execSync } = require("child_process");
 process.chdir("/home/ubuntu/github-projects/articles");
 
 const topics = [
-  "devops", "git", "flutter", "javascript", "nodejs", "angular",
-  "technology", "ai", "prompts", "mongodb", "database", "sql", "nosql", "mysql",
-  "typescript", "react", "docker", "kubernetes", "llm", "machinelearning"
+  "devops", "git", "flutter", "javascript", "node", "angular",
+  "ai", "promptengineering", "mongodb", "mongoose", "datastructures", "database",
+  "typescript", "dart", "docker", "kubernetes", "llm", "machinelearning",
+  "news", "security", "linux", "mobile", "android", "ios", "cybersecurity"
 ];
 
 function sanitizeFileName(title) {
@@ -20,8 +21,12 @@ function sanitizeFileName(title) {
     .substring(0, 60); // limit filename length
 }
 
-async function run() {
-  const date = new Date().toISOString().split("T")[0];
+async function fetchArticle(attempt = 0) {
+  if (attempt >= 5) {
+    console.log(`🕒 [${new Date().toLocaleTimeString()}] Max attempts reached. Exiting.`);
+    return null;
+  }
+
   const tag = topics[Math.floor(Math.random() * topics.length)];
   const apiUrl = `https://dev.to/api/articles?top=1&tag=${tag}`;
 
@@ -30,31 +35,72 @@ async function run() {
     const articles = response.data;
 
     if (!Array.isArray(articles) || articles.length === 0) {
-      throw new Error(`No articles found for tag: ${tag}`);
+      console.log(`🕒 [${new Date().toLocaleTimeString()}] No articles for ${tag}. Retrying...`);
+      return fetchArticle(attempt + 1);
     }
 
-    const article = articles[0];
-    const safeTitle = sanitizeFileName(article.title);
-    const fileName = `${date}-${safeTitle}.md`;
-    const filePath = path.join("articles", fileName);
-
-    if (fs.existsSync(filePath)) {
-      console.log(`ℹ️ File ${filePath} already exists. Skipping.`);
-      return;
-    }
-
-    const content = `# ${article.title}\n\n**Author:** ${article.user.name}\n\n**Published:** ${article.readable_publish_date}\n\n**Tags:** ${article.tag_list.join(", ")}\n\n**Link:** [Read on DEV.to](${article.url})\n\n---\n\n${article.description || "No description provided."}`;
-
-    fs.writeFileSync(filePath, content);
-    console.log(`✅ Saved article: ${filePath}`);
-
-    execSync("git add .");
-    execSync(`git commit -m "Add article: ${article.title}"`);
-    execSync("git push");
-    console.log("🚀 Article committed and pushed.");
+    return articles[0];
   } catch (error) {
-    console.error("❌ Failed to fetch article:", error.message);
+    console.log(`🕒 [${new Date().toLocaleTimeString()}] Fetch failed for ${tag}. Retrying...`);
+    return fetchArticle(attempt + 1);
   }
+}
+
+function updateReadme(article) {
+  const emojis = ["📚", "📖", "📝", "📓", "📕", "📗", "📘", "📙", "📔", "📒"];
+  const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
+  
+  const readmeContent = `# Articles Collection ${randomEmoji}
+
+A daily collection of interesting tech articles automatically fetched and committed.
+
+## Latest Article Added
+
+**${article.title}**  
+👤 By ${article.user.name}  
+📅 Published on ${article.readable_publish_date}  
+🏷 Tags: ${article.tag_list.join(", ")}  
+
+[Read on Dev.to](${article.url})
+
+## How It Works
+
+This repository is automatically updated daily with a new tech article from Dev.to. The selection is random across various tech topics.
+
+_Last updated: ${new Date().toISOString()}_
+`;
+
+  fs.writeFileSync("README.md", readmeContent);
+}
+
+async function run() {
+  const date = new Date().toISOString().split("T")[0];
+  const article = await fetchArticle();
+
+  if (!article) {
+    console.log(`🕒 [${new Date().toLocaleTimeString()}] No suitable article found after retries.`);
+    return;
+  }
+
+  const safeTitle = sanitizeFileName(article.title);
+  const fileName = `${date}-${safeTitle}.md`;
+  const filePath = path.join("articles", fileName);
+
+  if (fs.existsSync(filePath)) {
+    console.log(`🕒 [${new Date().toLocaleTimeString()}] Article exists. Skipping.`);
+    return;
+  }
+
+  const content = `# ${article.title}\n\n**Author:** ${article.user.name}\n\n**Published:** ${article.readable_publish_date}\n\n**Tags:** ${article.tag_list.join(", ")}\n\n**URL:** ${article.url}\n\n${article.description}`;
+  fs.writeFileSync(filePath, content);
+  console.log(`🕒 [${new Date().toLocaleTimeString()}] Saved: ${filePath}`);
+
+  updateReadme(article);
+
+  execSync("git add .");
+  execSync(`git commit -m "Add article: ${article.title}"`);
+  execSync("git push");
+  console.log(`🕒 [${new Date().toLocaleTimeString()}] Pushed to repo.`);
 }
 
 run();
