@@ -1,18 +1,18 @@
-# Articles Collection 📓
+# Articles Collection 📔
 
 A daily collection of interesting tech articles automatically fetched and committed.
 
 ## Latest Article Added
 
-**AI Designs Rockets: 85% Accuracy, Cuts Design Time 60%**  
-👤 By aimodels-fyi  
-📅 Published on May 1  
-🏷 Tags: machinelearning, ai, programming, datascience  
+**How to simulate a Worker Node failure in your Kubernetes Cluster without direct access**  
+👤 By Florian Cartron  
+📅 Published on May 2  
+🏷 Tags: kubernetes  
 
-[Read on Dev.to](https://dev.to/aimodels-fyi/ai-designs-rockets-85-accuracy-cuts-design-time-60-2ob1)
+[Read on Dev.to](https://dev.to/zenika/how-to-simulate-a-worker-node-failure-in-your-kubernetes-cluster-without-direct-acces-54f6)
 
 ## How It Works
 
 This repository is automatically updated daily with a new tech article from Dev.to. The selection is random across various tech topics.
 
-_Last updated: 2025-05-02T16:30:02.687Z_
+_Last updated: 2025-05-03T08:30:02.636Z_
