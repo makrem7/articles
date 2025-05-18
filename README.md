@@ -1,18 +1,18 @@
-# Articles Collection 📗
+# Articles Collection 📝
 
 A daily collection of interesting tech articles automatically fetched and committed.
 
 ## Latest Article Added
 
-**Keep Your Eyes on the End: Using the tail Command for Real-Time File Monitoring**  
-👤 By OLUWADAMILOLA FASHINA  
-📅 Published on May 16  
-🏷 Tags: cloudwhistler, linux, opensource, regex  
+**🎙️ Introducing react-native-voice2text: Seamless Voice-to-Text for React Native Android Apps 📱**  
+👤 By Gokul Krishna. S  
+📅 Published on May 17  
+🏷 Tags: reactnative, voicetotext, android, mobile  
 
-[Read on Dev.to](https://dev.to/dtemi/keep-your-eyes-on-the-end-using-the-tail-command-for-real-time-file-monitoring-47k1)
+[Read on Dev.to](https://dev.to/gokul_krishnas_151bdb69/introducing-react-native-voice2text-seamless-voice-to-text-for-react-native-android-apps-2k8h)
 
 ## How It Works
 
 This repository is automatically updated daily with a new tech article from Dev.to. The selection is random across various tech topics.
 
-_Last updated: 2025-05-17T08:30:03.008Z_
+_Last updated: 2025-05-18T08:30:02.660Z_
