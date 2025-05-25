@@ -1,18 +1,18 @@
-# Articles Collection 📕
+# Articles Collection 📗
 
 A daily collection of interesting tech articles automatically fetched and committed.
 
 ## Latest Article Added
 
-**Will Your AI Generated App Break in Production? 3 Ways to Test It**  
-👤 By Ben  
-📅 Published on May 20  
-🏷 Tags: ai, webdev, pythagora, vibecoding  
+**Resource API Changes in Angular 20 - Query Resource in rxResource**  
+👤 By Connie Leung  
+📅 Published on May 24  
+🏷 Tags: angular, webdev, tutorial  
 
-[Read on Dev.to](https://dev.to/benwilkins/will-your-ai-generated-app-break-in-production-3-ways-to-test-it-4il6)
+[Read on Dev.to](https://dev.to/railsstudent/-resource-api-changes-in-angular-20-query-resource-in-rxresource-2o8m)
 
 ## How It Works
 
 This repository is automatically updated daily with a new tech article from Dev.to. The selection is random across various tech topics.
 
-_Last updated: 2025-05-21T08:30:02.587Z_
+_Last updated: 2025-05-25T08:30:03.123Z_
