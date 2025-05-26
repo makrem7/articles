@@ -1,18 +1,18 @@
-# Articles Collection 📗
+# Articles Collection 📙
 
 A daily collection of interesting tech articles automatically fetched and committed.
 
 ## Latest Article Added
 
-**Resource API Changes in Angular 20 - Query Resource in rxResource**  
-👤 By Connie Leung  
-📅 Published on May 24  
-🏷 Tags: angular, webdev, tutorial  
+**I replaced Next.js for my application with this module 🔥**  
+👤 By Anthony Max  
+📅 Published on May 25  
+🏷 Tags: webdev, javascript, programming, opensource  
 
-[Read on Dev.to](https://dev.to/railsstudent/-resource-api-changes-in-angular-20-query-resource-in-rxresource-2o8m)
+[Read on Dev.to](https://dev.to/hmpljs/i-replaced-nextjs-for-my-application-with-this-templating-language-2g74)
 
 ## How It Works
 
 This repository is automatically updated daily with a new tech article from Dev.to. The selection is random across various tech topics.
 
-_Last updated: 2025-05-25T08:30:03.123Z_
+_Last updated: 2025-05-26T08:30:02.821Z_
