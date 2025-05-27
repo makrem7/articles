@@ -1,18 +1,18 @@
-# Articles Collection 📙
+# Articles Collection 📕
 
 A daily collection of interesting tech articles automatically fetched and committed.
 
 ## Latest Article Added
 
-**I replaced Next.js for my application with this module 🔥**  
-👤 By Anthony Max  
-📅 Published on May 25  
-🏷 Tags: webdev, javascript, programming, opensource  
+**Void + Ollama + LLMs: How I Turned My Code Editor into a Full-Blown AI Workbench**  
+👤 By Ayush kumar  
+📅 Published on May 26  
+🏷 Tags: voidai, llm, ai, ollama  
 
-[Read on Dev.to](https://dev.to/hmpljs/i-replaced-nextjs-for-my-application-with-this-templating-language-2g74)
+[Read on Dev.to](https://dev.to/nodeshiftcloud/void-ollama-llms-how-i-turned-my-code-editor-into-a-full-blown-ai-workbench-eop)
 
 ## How It Works
 
 This repository is automatically updated daily with a new tech article from Dev.to. The selection is random across various tech topics.
 
-_Last updated: 2025-05-26T08:30:02.821Z_
+_Last updated: 2025-05-27T08:30:03.638Z_
