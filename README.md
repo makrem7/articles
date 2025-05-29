@@ -1,18 +1,18 @@
-# Articles Collection 📗
+# Articles Collection 📕
 
 A daily collection of interesting tech articles automatically fetched and committed.
 
 ## Latest Article Added
 
-**The Rise of Multi-Agent AI: Where It’s Going and Why It Matters**  
-👤 By Daniel Vojcak  
-📅 Published on May 27  
-🏷 Tags: ai, productivity, promptengineering, futureofwork  
+**How a Simple Arch Linux Installation Made Me Accidentally Study Operating Systems**  
+👤 By Prakhar Pandey  
+📅 Published on May 29  
+🏷 Tags: archlinux, linux, opensource, programming  
 
-[Read on Dev.to](https://dev.to/daniel_vojcak_9ba2d00af8b/the-rise-of-multi-agent-ai-where-its-going-and-why-it-matters-3782)
+[Read on Dev.to](https://dev.to/prvkhvr/how-a-simple-arch-linux-installation-made-me-accidentally-study-operating-systems-5hen)
 
 ## How It Works
 
 This repository is automatically updated daily with a new tech article from Dev.to. The selection is random across various tech topics.
 
-_Last updated: 2025-05-28T08:30:03.077Z_
+_Last updated: 2025-05-29T08:30:03.140Z_
