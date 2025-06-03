@@ -1,18 +1,18 @@
-# Articles Collection 📚
+# Articles Collection 📓
 
 A daily collection of interesting tech articles automatically fetched and committed.
 
 ## Latest Article Added
 
-**GoCommit: Never Write Another Git Commit Message Again 🤖**  
-👤 By Huynh Thanh Phuc  
-📅 Published on Jun 1  
-🏷 Tags: go, ai, git, productivity  
+**Reinforcement Learning: How Machines Learn from Trial and Error**  
+👤 By Leonhard Kwahle  
+📅 Published on Jun 2  
+🏷 Tags: machinelearning, datascience, ai, rpa  
 
-[Read on Dev.to](https://dev.to/thanhphuchuynh/gocommit-never-write-another-git-commit-message-again-4j4b)
+[Read on Dev.to](https://dev.to/leonhard_kwahle_7d09cf417/reinforcement-learning-how-machines-learn-from-trial-and-error-26lm)
 
 ## How It Works
 
 This repository is automatically updated daily with a new tech article from Dev.to. The selection is random across various tech topics.
 
-_Last updated: 2025-06-02T08:30:02.799Z_
+_Last updated: 2025-06-03T08:30:02.670Z_
