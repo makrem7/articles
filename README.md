@@ -1,18 +1,18 @@
-# Articles Collection 📚
+# Articles Collection 📖
 
 A daily collection of interesting tech articles automatically fetched and committed.
 
 ## Latest Article Added
 
-**Build Your First REST API with Node.js and Express (in 15 Minutes)**  
-👤 By ayka.code  
-📅 Published on Jun 10  
-🏷 Tags: webdev, node, programming, javascript  
+**How Snowflake Copilot Inline Transformed My SQL Analysis Experience**  
+👤 By Tsubasa Kanno  
+📅 Published on Jun 11  
+🏷 Tags: snowflake, sql, llm, analytics  
 
-[Read on Dev.to](https://dev.to/ayka_code/build-your-first-rest-api-with-nodejs-and-express-in-15-minutes-5hb7)
+[Read on Dev.to](https://dev.to/tsubasa_tech/how-snowflake-copilot-inline-transformed-my-sql-analysis-experience-2j97)
 
 ## How It Works
 
 This repository is automatically updated daily with a new tech article from Dev.to. The selection is random across various tech topics.
 
-_Last updated: 2025-06-11T08:30:02.818Z_
+_Last updated: 2025-06-12T08:30:02.298Z_
