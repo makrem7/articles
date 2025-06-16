@@ -4,15 +4,15 @@ A daily collection of interesting tech articles automatically fetched and commit
 
 ## Latest Article Added
 
-**How to Handle Missed Bugs Like a Pro: 5 Smart Strategies for Testers and Teams**  
-👤 By Shubham Joshi  
-📅 Published on Jun 14  
-🏷 Tags: testing, webdev, programming, ai  
+**Mystery of Function Currying in JavaScript!**  
+👤 By Sudhil Raj K  
+📅 Published on Jun 15  
+🏷 Tags: webdev, programming, javascript, beginners  
 
-[Read on Dev.to](https://dev.to/shubham-theqa/how-to-handle-missed-bugs-like-a-pro-5-smart-strategies-for-testers-and-teams-3ob1)
+[Read on Dev.to](https://dev.to/sudhil/mystery-of-function-currying-in-javascript-54da)
 
 ## How It Works
 
 This repository is automatically updated daily with a new tech article from Dev.to. The selection is random across various tech topics.
 
-_Last updated: 2025-06-15T08:30:02.865Z_
+_Last updated: 2025-06-16T08:30:02.268Z_
