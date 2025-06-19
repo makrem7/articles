@@ -4,15 +4,15 @@ A daily collection of interesting tech articles automatically fetched and commit
 
 ## Latest Article Added
 
-**Installing Redis 7.4 with Ansible & a Custom `redis.conf`**  
-👤 By Athreya aka Maneshwar  
-📅 Published on Jun 16  
-🏷 Tags: webdev, programming, beginners, devops  
+**🐯 🚀 Timescale is now TigerData: Building the Modern PostgreSQL for the Analytical and Agentic Era**  
+👤 By Ajay Kulkarni  
+📅 Published on Jun 18  
+🏷 Tags: news, database, ai, postgres  
 
-[Read on Dev.to](https://dev.to/lovestaco/installing-redis-74-with-ansible-a-custom-redisconf-2h84)
+[Read on Dev.to](https://dev.to/tigerdata/timescale-is-now-tigerdata-building-the-modern-postgresql-for-the-analytical-and-agentic-era-3a51)
 
 ## How It Works
 
 This repository is automatically updated daily with a new tech article from Dev.to. The selection is random across various tech topics.
 
-_Last updated: 2025-06-17T08:30:03.468Z_
+_Last updated: 2025-06-19T08:30:03.801Z_
