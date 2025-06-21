@@ -1,18 +1,18 @@
-# Articles Collection 📒
+# Articles Collection 📓
 
 A daily collection of interesting tech articles automatically fetched and committed.
 
 ## Latest Article Added
 
-**WWDC 2025 Deep Dive: Mastering Swift Concurrency's Evolution Path**  
-👤 By ArshTechPro  
-📅 Published on Jun 19  
-🏷 Tags: ios, swift, mobile, programming  
+**10 Ways a CLI Coding Agent Boosted My Productivity by 80%**  
+👤 By Pankaj Singh  
+📅 Published on Jun 20  
+🏷 Tags: webdev, programming, ai, devops  
 
-[Read on Dev.to](https://dev.to/arshtechpro/wwdc-2025-deep-dive-mastering-swift-concurrencys-evolution-path-3mpj)
+[Read on Dev.to](https://dev.to/pankaj_singh_1022ee93e755/10-ways-a-cli-coding-agent-boosted-my-productivity-by-80-nnm)
 
 ## How It Works
 
 This repository is automatically updated daily with a new tech article from Dev.to. The selection is random across various tech topics.
 
-_Last updated: 2025-06-20T08:30:03.597Z_
+_Last updated: 2025-06-21T08:30:02.287Z_
