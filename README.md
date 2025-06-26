@@ -1,18 +1,18 @@
-# Articles Collection 📓
+# Articles Collection 📖
 
 A daily collection of interesting tech articles automatically fetched and committed.
 
 ## Latest Article Added
 
-**CVE-2025-0282: Remote Code Execution in Ivanti Connect Secure VPN**  
-👤 By Sharon  
-📅 Published on Jun 25  
-🏷 Tags: vulnerabilities, cybersecurity, websecurity  
+**RxJS Deserves Better Than Its Constant Criticism – Lessons From a Real-World Production System**  
+👤 By Florent M  
+📅 Published on Jun 26  
+🏷 Tags: rxjs, angular, frontend, javascript  
 
-[Read on Dev.to](https://dev.to/sharon_42e16b8da44dabde6d/cve-2025-0282-remote-code-execution-in-ivanti-connect-secure-vpn-3ckd)
+[Read on Dev.to](https://dev.to/fmondo/rxjs-deserves-better-than-its-constant-criticism-lessons-from-a-real-world-production-system-5198)
 
 ## How It Works
 
 This repository is automatically updated daily with a new tech article from Dev.to. The selection is random across various tech topics.
 
-_Last updated: 2025-06-25T08:30:02.699Z_
+_Last updated: 2025-06-26T08:30:03.273Z_
