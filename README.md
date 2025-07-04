@@ -4,15 +4,15 @@ A daily collection of interesting tech articles automatically fetched and commit
 
 ## Latest Article Added
 
-**9 Open Source Gems To Become The Ultimate Developer 🔥**  
-👤 By Anthony Max  
-📅 Published on Jul 2  
-🏷 Tags: webdev, javascript, programming, opensource  
+**Building My First CLI Tool — Messy but Worth It!**  
+👤 By Khushiii   
+📅 Published on Jul 3  
+🏷 Tags: javascript, webdev, node, programming  
 
-[Read on Dev.to](https://dev.to/anthonymax/9-open-source-gems-to-become-the-ultimate-developer-2pnb)
+[Read on Dev.to](https://dev.to/khushimehappy/building-my-first-cli-tool-messy-but-worth-it-26f0)
 
 ## How It Works
 
 This repository is automatically updated daily with a new tech article from Dev.to. The selection is random across various tech topics.
 
-_Last updated: 2025-07-03T08:30:03.096Z_
+_Last updated: 2025-07-04T08:30:02.625Z_
