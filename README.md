@@ -1,18 +1,18 @@
-# Articles Collection 📚
+# Articles Collection 📒
 
 A daily collection of interesting tech articles automatically fetched and committed.
 
 ## Latest Article Added
 
-**Mon parcours avec Flutter : de la paresse à la passion**  
-👤 By DARTPY DAX  
-📅 Published on Jul 6  
-🏷 Tags: flutter, dart, mobile, beginners  
+**It's All About (Accessibility) Focus And Compose**  
+👤 By Eevis  
+📅 Published on Jul 7  
+🏷 Tags: a11y, android, programming, mobile  
 
-[Read on Dev.to](https://dev.to/thatsdaxdeveloper/mon-parcours-avec-flutter-de-la-paresse-a-la-passion-2hlc)
+[Read on Dev.to](https://dev.to/eevajonnapanula/its-all-about-accessibility-focus-and-compose-48ki)
 
 ## How It Works
 
 This repository is automatically updated daily with a new tech article from Dev.to. The selection is random across various tech topics.
 
-_Last updated: 2025-07-07T08:30:02.747Z_
+_Last updated: 2025-07-08T08:30:02.543Z_
