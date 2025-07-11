@@ -1,18 +1,18 @@
-# Articles Collection 📘
+# Articles Collection 📗
 
 A daily collection of interesting tech articles automatically fetched and committed.
 
 ## Latest Article Added
 
-**MongoDB Made Easy: A Beginner’s Practical Guide (Part 1)**  
-👤 By Ahmed Afzal  
-📅 Published on Jul 9  
-🏷 Tags: mongodb, database, nosql, webdev  
+**🚀 How to Reduce Flutter App Size Using `--split-per-abi` (Step-by-Step)**  
+👤 By Parikshit verma (Honey)  
+📅 Published on Jul 10  
+🏷 Tags: webdev, flutter, programming  
 
-[Read on Dev.to](https://dev.to/ahmed_afzal/mongodb-essentials-a-beginners-guide-to-nosql-databases-part-1-28ch)
+[Read on Dev.to](https://dev.to/parikshit_vermahoney_7/how-to-reduce-flutter-app-size-using-split-per-abi-step-by-step-3k48)
 
 ## How It Works
 
 This repository is automatically updated daily with a new tech article from Dev.to. The selection is random across various tech topics.
 
-_Last updated: 2025-07-10T08:30:03.011Z_
+_Last updated: 2025-07-11T08:30:03.036Z_
