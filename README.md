@@ -1,18 +1,18 @@
-# Articles Collection 📚
+# Articles Collection 📙
 
 A daily collection of interesting tech articles automatically fetched and committed.
 
 ## Latest Article Added
 
-**Why Your NodeJs/NestJS JWT Authentication is Probably Broken**  
-👤 By Olayinka Adeyemi  
-📅 Published on Jul 12  
-🏷 Tags: node, nestjs, security, jwt  
+**GSoC Week 5: Markdown broke, CI/CD woke**  
+👤 By Yashvant Singh  
+📅 Published on Jul 13  
+🏷 Tags: opensource, flutter, dart  
 
-[Read on Dev.to](https://dev.to/theadeyemiolayinka/why-your-nodejsnestjs-jwt-authentication-is-probably-broken-73e)
+[Read on Dev.to](https://dev.to/jatsuakayashvant/gsoc-week-5-markdown-broke-cicd-woke-59kf)
 
 ## How It Works
 
 This repository is automatically updated daily with a new tech article from Dev.to. The selection is random across various tech topics.
 
-_Last updated: 2025-07-13T08:30:02.744Z_
+_Last updated: 2025-07-14T08:30:03.302Z_
