@@ -1,18 +1,18 @@
-# Articles Collection 📚
+# Articles Collection 📘
 
 A daily collection of interesting tech articles automatically fetched and committed.
 
 ## Latest Article Added
 
-**Data Visibility: A Mongoose Middleware Case Study**  
-👤 By Njabulo Majozi  
+**Supabase Analytics Buckets with Iceberg Support**  
+👤 By Yuri  
 📅 Published on Jul 15  
-🏷 Tags: mongoose, mongodb, node  
+🏷 Tags: programming, productivity, opensource, database  
 
-[Read on Dev.to](https://dev.to/njabulomajozi/data-visibility-a-mongoose-middleware-case-study-35e9)
+[Read on Dev.to](https://dev.to/supabase/supabase-analytics-buckets-with-iceberg-support-51a6)
 
 ## How It Works
 
 This repository is automatically updated daily with a new tech article from Dev.to. The selection is random across various tech topics.
 
-_Last updated: 2025-07-15T08:30:02.653Z_
+_Last updated: 2025-07-16T08:30:02.477Z_
