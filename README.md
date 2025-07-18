@@ -1,18 +1,18 @@
-# Articles Collection 📒
+# Articles Collection 📓
 
 A daily collection of interesting tech articles automatically fetched and committed.
 
 ## Latest Article Added
 
-**Build Docker Image Remotely and Run It Locally Using DOCKER_HOST + rsync**  
-👤 By Athreya aka Maneshwar  
-📅 Published on Jul 16  
-🏷 Tags: webdev, programming, docker, beginners  
+**Stream vs Future in Dart: Stop Using the Wrong One**  
+👤 By Md. Al-Amin  
+📅 Published on Jul 17  
+🏷 Tags: dart, flutter, programming  
 
-[Read on Dev.to](https://dev.to/lovestaco/build-docker-image-remotely-and-run-it-locally-using-dockerhost-rsync-2j22)
+[Read on Dev.to](https://dev.to/alaminkarno/stream-vs-future-in-dart-stop-using-the-wrong-one-11gp)
 
 ## How It Works
 
 This repository is automatically updated daily with a new tech article from Dev.to. The selection is random across various tech topics.
 
-_Last updated: 2025-07-17T08:30:02.624Z_
+_Last updated: 2025-07-18T08:30:02.681Z_
