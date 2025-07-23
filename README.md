@@ -1,18 +1,18 @@
-# Articles Collection 📙
+# Articles Collection 📗
 
 A daily collection of interesting tech articles automatically fetched and committed.
 
 ## Latest Article Added
 
-**The Art of Dependency Injection in SwiftUI**  
-👤 By Vinayak G Hejib  
-📅 Published on Jul 21  
-🏷 Tags: ios, swiftui, programming, mobile  
+**Stop Prop Drilling Like It's 2019 - SwiftUI @Environment Deep Dive**  
+👤 By Karan Pal  
+📅 Published on Jul 22  
+🏷 Tags: programming, ios, swift, mobile  
 
-[Read on Dev.to](https://dev.to/vnayak_hejib/the-art-of-dependency-injection-in-swiftui-3fcd)
+[Read on Dev.to](https://dev.to/swift_pal/stop-prop-drilling-like-its-2019-swiftui-environment-deep-dive-86o)
 
 ## How It Works
 
 This repository is automatically updated daily with a new tech article from Dev.to. The selection is random across various tech topics.
 
-_Last updated: 2025-07-22T08:30:02.840Z_
+_Last updated: 2025-07-23T08:30:02.362Z_
